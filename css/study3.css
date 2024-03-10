@@ -1,0 +1,123 @@
+/* STUDY 3 */
+
+.study3 {
+    padding: 100px 0px 0px 0px;
+}
+
+.study3 .info-section {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    padding: 50px 0px 100px 0px;
+}
+
+.study3 .info-section .intro-block {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+}
+
+.study3 .info-section .intro-block .section-heading {
+    margin: 50px 0px 0px 0px;
+}
+
+.study3 .info-section .intro-block .paragraphs {
+    margin: 50px 0px 0px 0px;
+}
+
+
+
+.study3 .imgs-section {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    background-color: #ebe8ec;
+}
+
+.study3 .imgs-section .cols-block {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    padding: 100px 0px;
+}
+
+.study3 .imgs-section .cols-block .section-heading {
+    color: #000000;
+}
+
+.study3 .imgs-section .cols-block .cols {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    margin: 50px 0px 0px 0px;
+}
+
+.study3 .imgs-section .cols-block .cols .col {
+    box-sizing: border-box;
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+}
+
+.study3 .imgs-section .cols-block .cols .col-left {
+    padding: 0px 10px 0px 0px;
+}
+
+.study3 .imgs-section .cols-block .cols .col-right {
+    padding: 0px 0px 0px 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    .study3 .imgs-section .cols-block .cols .col {
+        width: 100%;
+    }
+
+    .study3 .imgs-section .cols-block .cols .col-left {
+        padding: 0px;
+    }
+
+    .study3 .imgs-section .cols-block .cols .col-right {
+        margin: 50px 0px 0px 0px;
+        padding: 0px;
+    }
+}
+
+.study3 .imgs-section .cols-block .col img {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    width: 100%;
+}
+
+
+
+.study3 .extra-section {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    padding: 100px 0px;
+}
+
+.study3 .extra-section .outro-block {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+}
+
+.study3 .extra-section .outro-block .paragraphs {
+    margin: 50px 0px 0px 0px;
+}
+
+.study3 .extra-section .outro-block .list-items {
+    margin: 50px 0px 0px 0px;
+}
+
+.study3 .extra-section .outro-block img {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    margin: 50px 0px 0px 0px;
+    width: 100%;
+}
+

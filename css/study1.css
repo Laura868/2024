@@ -1,0 +1,250 @@
+/* STUDY 1 */
+
+.study1 {
+    padding: 100px 0px 0px 0px;
+}
+
+.study1 .info-section {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    padding: 50px 0px 0px 0px;
+}
+
+.study1 .info-section .intro-block {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+}
+
+.study1 .info-section .intro-block .section-heading {
+    margin: 50px 0px 0px 0px;
+    padding-bottom: 38px;
+}
+
+.study1 .info-section .intro-block .paragraphs{
+   /* padding-bottom: 65px;*/
+}
+
+.study1 .info-section .cols-block {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    padding: 100px 0px 0px 0px;
+}
+
+.study1 .info-section .cols-block .cols {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    margin: 50px 0px 0px 0px;
+}
+
+.study1 .info-section .cols-block .cols .col {
+    box-sizing: border-box;
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+}
+
+.study1 .info-section .cols-block .cols .col-left {
+    padding: 0px 10px 0px 0px;
+}
+
+.study1 .info-section .cols-block .cols .col-right {
+    padding: 0px 0px 0px 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    .study1 .info-section .cols-block .cols .col {
+        width: 100%;
+    }
+
+    .study1 .info-section .cols-block .cols .col-left {
+        padding: 0px;
+    }
+
+    .study1 .info-section .cols-block .cols .col-right {
+        margin: 50px 0px 0px 0px;
+        padding: 0px;
+    }
+}
+
+.study1 .info-section .cols-block .cols .col img {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    width: 100%;
+}
+
+
+
+.study1 .info-section .video-block {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    padding: 100px 0px 0px 0px;
+}
+
+.study1 .info-section .video-block .paragraphs {
+    margin: 50px 0px 0px 0px;
+}
+
+.study1 .info-section .video-block video {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    margin: 50px 0px 0px 0px;
+    width: 100%;
+    max-width: 404px;
+    padding: 86px 0px;
+}
+
+
+
+.study1 .info-section .img-block {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+   /* padding: 100px 0px;*/
+}
+
+.study1 .info-section .img-block .paragraphs {
+    margin: 50px 0px 0px 0px;
+}
+
+.study1 .info-section .img-block img {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    margin: 50px auto 0px auto;
+    width: 100%;
+   /* max-width: 886px;*/
+}
+
+
+.study1 .more-section {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    padding: 100px 0px;
+}
+
+.study1 .more-section .swiper-block {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+}
+
+.study1 .more-section .swiper-block .controls {
+    box-sizing: border-box;
+    position: absolute;
+    display: block;
+    right: 0px;
+    top: 0px;
+}
+
+@media only screen and (max-width: 500px) {
+    .study1 .more-section .swiper-block .controls {
+        position: relative;
+        margin: 50px 0px 0px 0px;
+        left: 0px;
+    }
+}
+
+.study1 .more-section .swiper-block .controls .prev-btn {
+    box-sizing: border-box;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    width: 36px;
+    height: 36px;
+    background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='utf-8'%3F%3E%3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' width='80.593px' height='122.88px' fill='%23000000' viewBox='0 0 80.593 122.88' enable-background='new 0 0 80.593 122.88' xml:space='preserve'%3E%3Cg%3E%3Cpolygon points='80.593,0 49.771,0 0,61.44 49.771,122.88 80.593,122.88 30.82,61.44 80.593,0'/%3E%3C/g%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-size: 20px 30px;
+    background-position: center;
+    cursor: pointer;
+}
+
+.study1 .more-section .swiper-block .controls .prev-btn:hover {
+    background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='utf-8'%3F%3E%3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' width='80.593px' height='122.88px' fill='%23742D91' viewBox='0 0 80.593 122.88' enable-background='new 0 0 80.593 122.88' xml:space='preserve'%3E%3Cg%3E%3Cpolygon points='80.593,0 49.771,0 0,61.44 49.771,122.88 80.593,122.88 30.82,61.44 80.593,0'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+.study1 .more-section .swiper-block .controls .next-btn {
+    box-sizing: border-box;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0px 0px 0px 10px;
+    width: 36px;
+    height: 36px;
+    background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='utf-8'%3F%3E%3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' width='80.593px' height='122.88px' fill='%23000000' viewBox='0 0 80.593 122.88' enable-background='new 0 0 80.593 122.88' xml:space='preserve'%3E%3Cg%3E%3Cpolygon points='0,0 30.82,0 80.593,61.44 30.82,122.88 0,122.88 49.772,61.44 0,0'/%3E%3C/g%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-size: 20px 30px;
+    background-position: center;
+    cursor: pointer;
+}
+
+.study1 .more-section .swiper-block .controls .next-btn:hover {
+    background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='utf-8'%3F%3E%3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' width='80.593px' height='122.88px' fill='%23742D91' viewBox='0 0 80.593 122.88' enable-background='new 0 0 80.593 122.88' xml:space='preserve'%3E%3Cg%3E%3Cpolygon points='0,0 30.82,0 80.593,61.44 30.82,122.88 0,122.88 49.772,61.44 0,0'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+.study1 .more-section .swiper-block .swiper {
+    margin: 50px 0px 0px 0px;
+    width: 100%;
+    height: 280px;
+}
+
+.study1 .more-section .swiper-block .swiper .swiper-slide img {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    width: 100%;
+}
+
+.study1 .more-section .swiper-block .swiper .swiper-slide .title {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    margin: 20px 0px 0px 0px;
+    font-family: 'LatoBold';
+    font-size: 20px;
+}
+
+.study1 .more-section .swiper-block .swiper .swiper-slide .more {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    margin: 5px 0px 0px 0px;
+    left: 0px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.study1 .more-section .swiper-block .swiper .swiper-slide .more .label {
+    box-sizing: border-box;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    font-family: 'LatoBold';
+    color: #742D91;
+}
+
+.study1 .more-section .swiper-block .swiper .swiper-slide .more .arrow {
+    box-sizing: border-box;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0px 0px 0px 5px;
+    width: 16px;
+    height: 16px;
+    background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='utf-8'%3F%3E%3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' width='122.88px' height='122.433px' fill='%23742D91' viewBox='0 0 122.88 122.433' enable-background='new 0 0 122.88 122.433' xml:space='preserve'%3E%3Cg%3E%3Cpolygon fill-rule='evenodd' clip-rule='evenodd' points='122.88,61.217 59.207,122.433 59.207,83.029 0,83.029 0,39.399 59.207,39.399 59.207,0 122.88,61.217'/%3E%3C/g%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+
+.study1 .more-section .swiper-block .swiper .swiper-slide .more:hover .label {
+    text-decoration: underline;
+}

@@ -1,0 +1,141 @@
+/* GLOBAL */
+
+body {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    margin: 0px;
+    font-family: 'Lato-Light';
+    font-size: 20px;
+}
+
+.layout {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    margin: 0px auto;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #FFFFFF;
+}
+
+.page {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+}
+
+.page .inner-content {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    padding: 0px 20px;
+    margin: 0px auto;
+    width: 100%;
+    max-width: 1500px;
+}
+
+.main-heading {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    margin: 0px;
+    font-family: 'LatoBold';
+    font-weight: normal;
+    font-size: 38px;
+}
+
+.section-heading {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    margin: 0px;
+    font-family: 'LatoRegular';
+    font-weight: normal;
+    font-size: 30px;
+}
+
+.paragraphs {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+}
+
+.paragraphs p {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    margin: 10px 0px 0px 0px;
+    line-height: 1.86;
+}
+
+.paragraphs p:first-child {
+    margin: 0px;
+}
+
+.paragraphs p a {
+    font-family: 'LatoBold';
+    color: #742D91;
+    text-decoration: none;
+}
+
+.paragraphs p a:hover {
+    text-decoration: underline;
+}
+
+.list-items {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    margin: 0px;
+    padding: 0px;
+}
+
+.list-items li {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    margin: 10px 0px 0px 0px;
+}
+
+.list-items li:first-child {
+    margin: 0px;
+}
+
+.list-items li a {
+    font-family: 'LatoRegular';
+    color: #742D91;
+    text-decoration-line: underline;
+}
+
+.list-items li a:hover {
+    text-decoration: underline;
+}
+
+.ordered-items {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    margin: 0px;
+    padding: 0px 0px 0px 30px;
+}
+
+.ordered-items li {
+    box-sizing: border-box;
+    position: relative;
+    margin: 10px 0px 0px 0px;
+}
+
+.ordered-items li:first-child {
+    margin: 0px;
+}
+
+.ordered-items li a {
+    font-family: 'LatoBold';
+    color: #742D91;
+    text-decoration: none;
+}
+
+.ordered-items li a:hover {
+    text-decoration: underline;
+}

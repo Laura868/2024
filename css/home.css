@@ -1,0 +1,293 @@
+/* HOME */
+
+.Headertext{
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    font-size: 28px;
+}
+.Secondary-text{
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    font-size: 18px;
+    font-family: 'Lato-Hairline';
+    font-weight: Hairline;
+
+}
+
+.home .splash-section {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100vh;
+    background-image: url('../imgs/bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.home .splash-section .overlay {
+    box-sizing: border-box;
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.home .splash-section .inner-content {
+    padding: 100px 20px 0px 20px;
+    height: 100%;
+}
+
+.home .splash-section .text-wrapper {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    top: 36%;
+    max-width: 800px;
+    float: right;
+    transform: translateY(-50%);
+    color: #FFFFFF;
+}
+
+.home .splash-section .text-wrapper h2 {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    margin: 0px;
+    font-family: 'Lato-Light';
+    font-weight: normal;
+    font-size: 32px;
+}
+
+.home .splash-section .text-wrapper h4 {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    margin: 0px;
+    font-family: 'Lato-Hairline';
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.home .splash-section .text-wrapper .paragraphs {
+    margin: 20px 0px 0px 0px;
+}
+
+
+
+.home .about-section {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    padding: 100px 0px 0px 0px;
+}
+
+.home .about-section .profile-block {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+}
+
+.home .about-section .profile-block img {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    margin: 50px 0px 0px 0px;
+    width: 100%;
+    max-width: 465px;
+}
+
+.home .about-section .profile-block .paragraphs {
+    margin: 50px 0px 0px 0px;
+}
+
+
+
+.home .about-section .disciplines-block {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    margin: 100px 0px 0px 0px;
+}
+
+.home .about-section .disciplines-block .paragraphs {
+    margin: 50px 0px 0px 0px;
+}
+
+.home .about-section .disciplines-block .list-items {
+    margin: 20px 0px 0px 0px;
+}
+
+.home .about-section .disciplines-block .list-items li {
+    display: inline-block;
+    vertical-align: middle;
+    width: 50%;
+}
+
+@media only screen and (max-width: 680px) {
+    .home .about-section .disciplines-block .list-items li {
+        width: 100%;
+    }
+}
+
+
+
+.home .about-section .articles-block {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    margin: 100px 0px 0px 0px;
+}
+
+.home .about-section .articles-block .list-items {
+    margin: 50px 0px 0px 0px;
+}
+
+
+
+.home .portfolio-section {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    padding: 100px 0px;
+}
+
+.home .portfolio-section .case-studies {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    margin: 50px 0px 0px 0px;
+}
+
+.home .portfolio-section .case-study {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    margin: 50px 0px 0px 0px;
+}
+
+.home .portfolio-section .case-study:first-child {
+    margin: 0px;
+}
+
+.home .portfolio-section .case-study .col {
+    box-sizing: border-box;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.home .portfolio-section .case-study .col-left {
+    padding: 0px 56px 0px 0px;
+}
+
+.home .portfolio-section .case-study .col-right {
+    padding: 0px 0px 0px 10px;
+}
+
+.home .portfolio-section .case-study .col-wide {
+    width: 60%;
+}
+
+.home .portfolio-section .case-study .col-narrow {
+    width: 40%;
+}
+
+@media only screen and (max-width: 680px) {
+    .home .portfolio-section .case-study .col-left {
+        padding: 0px;
+    }
+
+    .home .portfolio-section .case-study .col-right {
+        margin: 20px 0px 0px 0px;
+        padding: 0px;
+    }
+
+    .home .portfolio-section .case-study .col-wide {
+        width: 100%;
+    }
+
+    .home .portfolio-section .case-study .col-narrow {
+        width: 100%;
+    }
+}
+
+
+.home .portfolio-section .case-study .col .thumb {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+}
+
+.home .portfolio-section .case-study .col .thumb img {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    width: 100%;
+}
+
+.home .portfolio-section .case-study .col .excerpt {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+}
+
+.home .portfolio-section .case-study .col .excerpt .title {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    font-family: 'LatoBold';
+    font-size: 26px;
+}
+
+.home .portfolio-section .case-study .col .excerpt .info {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    margin: 20px 0px 0px 0px;
+}
+
+.home .portfolio-section .case-study .col .excerpt .more {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    margin: 20px 0px 0px 0px;
+    left: 0px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.home .portfolio-section .case-study .col .excerpt .more .label {
+    box-sizing: border-box;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    font-family: 'LatoBold';
+    color: #742D91;
+    text-decoration-line: underline;
+}
+
+.home .portfolio-section .case-study .col .excerpt .more .arrow {
+    box-sizing: border-box;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0px 0px 0px 5px;
+    width: 16px;
+    height: 16px;
+    /*background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='utf-8'%3F%3E%3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' width='122.88px' height='122.433px' fill='%23742D91' viewBox='0 0 122.88 122.433' enable-background='new 0 0 122.88 122.433' xml:space='preserve'%3E%3Cg%3E%3Cpolygon fill-rule='evenodd' clip-rule='evenodd' points='122.88,61.217 59.207,122.433 59.207,83.029 0,83.029 0,39.399 59.207,39.399 59.207,0 122.88,61.217'/%3E%3C/g%3E%3C/svg%3E");
+    */
+    background-image: url('../imgs/Arrow.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+
+.home .portfolio-section .case-study .col .excerpt .more:hover .label {
+    text-decoration: underline;
+}

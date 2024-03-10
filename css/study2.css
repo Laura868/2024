@@ -1,0 +1,105 @@
+/* STUDY 2 */
+
+.study2 {
+    padding: 100px 0px 0px 0px;
+}
+
+.study2 .info-section {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    padding: 50px 0px 0px 0px;
+}
+
+.study2 .info-section .intro-block {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+}
+
+.study2 .info-section .intro-block .section-heading {
+    margin: 50px 0px 0px 0px;
+}
+
+.study2 .info-section .intro-block .paragraphs {
+    margin: 50px 0px 0px 0px;
+}
+
+
+
+.study2 .info-section .ordered-block {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    padding: 100px 0px 0px 0px;
+}
+
+.study2 .info-section .ordered-block .paragraphs {
+    margin: 50px 0px 0px 0px;
+}
+
+.study2 .info-section .ordered-block .cols {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    margin: 50px 0px 0px 0px;
+}
+
+.study2 .info-section .ordered-block .cols .col {
+    box-sizing: border-box;
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+}
+
+.study2 .info-section .ordered-block .cols .col-left {
+    padding: 0px 10px 0px 0px;
+}
+
+.study2 .info-section .ordered-block .cols .col-right {
+    padding: 0px 0px 0px 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    .study2 .info-section .ordered-block .cols .col {
+        width: 100%;
+    }
+
+    .study2 .info-section .ordered-block .cols .col-left {
+        padding: 0px;
+    }
+
+    .study2 .info-section .ordered-block .cols .col-right {
+        margin: 50px 0px 0px 0px;
+        padding: 0px;
+    }
+}
+
+.study2 .info-section .ordered-block .cols .col img {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    width: 100%;
+}
+
+
+
+.study2 .info-section .img-block {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    padding: 100px 0px;
+}
+
+.study2 .info-section .img-block .paragraphs {
+    margin: 50px 0px 0px 0px;
+}
+
+.study2 .info-section .img-block img {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    margin: 50px auto 0px auto;
+    width: 100%;
+}
