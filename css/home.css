@@ -84,7 +84,7 @@
     box-sizing: border-box;
     position: relative;
     display: block;
-    padding: 100px 0px 0px 0px;
+   /* padding: 100px 0px 0px 0px;*/
 }
 
 .home .about-section .profile-block {
