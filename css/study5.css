@@ -1,0 +1,94 @@
+/* STUDY 5 */
+
+.study5 {
+    padding: 100px 0px 0px 0px;
+}
+
+.study5 .info-section {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    padding: 50px 0px 100px 0px;
+}
+
+.study5 .info-section .intro-block {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+}
+
+.study5 .info-section .intro-block .section-heading {
+    margin: 50px 0px 0px 0px;
+}
+
+.study5 .info-section .intro-block .paragraphs {
+    margin: 50px 0px 0px 0px;
+}
+
+.study5 .info-section .intro-block img {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    margin: 50px 0px 0px 0px;
+    width: 100%;
+}
+
+
+
+.study5 .info-section .icons-block {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    margin: 50px 0px 0px 0px;
+}
+
+.study5 .info-section .icons-block .paragraphs {
+    margin: 50px 0px 0px 0px;
+}
+
+.study5 .info-section .icons-block .icon-boxes {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+}
+
+.study5 .info-section .icons-block .icon-boxes .box {
+    box-sizing: border-box;
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    padding: 50px 10px 0px 10px;
+    width: 25%;
+}
+
+@media only screen and (max-width: 600px) {
+    .study4 .info-section .icons-block .icon-boxes .box {
+        width: 50%;
+    }
+    .study5 .info-section .icons-block .icon-boxes .box {
+    box-sizing: border-box;
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    padding: 50px 10px 0px 10px;
+    width: 50%;
+}
+
+}
+
+.study5 .info-section .icons-block .icon-boxes .box img {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    margin: 0px auto;
+    width: 100%;
+    max-width: 96px;
+}
+
+.study5 .info-section .icons-block .icon-boxes .box .label {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    margin: 10px 0px 0px 0px;
+    text-align: center;
+}
