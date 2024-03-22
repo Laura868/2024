@@ -8,7 +8,7 @@
     box-sizing: border-box;
     position: relative;
     display: block;
-    padding: 50px 0px 100px 0px;
+    /*padding: 50px 0px 100px 0px;*/
 }
 
 .study3 .info-section .intro-block {
@@ -70,7 +70,7 @@
 
 iframe{
 width:100%; 
-min-height: 869px;
+min-height:100%;
 }
 
 
