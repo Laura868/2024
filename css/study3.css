@@ -68,7 +68,19 @@
     padding: 0px 0px 0px 10px;
 }
 
+iframe{
+width:100%; 
+min-height: 869px;
+}
+
+
 @media only screen and (max-width: 600px) {
+
+     iframe{
+    width:auto; 
+    height:auto;
+
+    }
     .study3 .imgs-section .cols-block .cols .col {
         width: 100%;
     }
