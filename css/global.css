@@ -6,7 +6,7 @@ body {
     display: block;
     margin: 0px;
     font-family: 'Lato-Light';
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .layout {
@@ -42,7 +42,9 @@ body {
     margin: 0px;
     font-family: 'LatoBold';
     font-weight: normal;
-    font-size: 38px;
+    font-size: 24px;
+    text-align: center;
+    padding-bottom: 30px;
 }
 
 .section-heading {
@@ -52,7 +54,8 @@ body {
     margin: 0px;
     font-family: 'LatoRegular';
     font-weight: normal;
-    font-size: 30px;
+    font-size: 20px;
+    
 }
 
 .paragraphs {

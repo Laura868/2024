@@ -15,11 +15,17 @@
     box-sizing: border-box;
     position: relative;
     display: block;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 40px;
+    padding-top: 20px;
 }
 
 .study1 .info-section .intro-block .section-heading {
     margin: 50px 0px 0px 0px;
     padding-bottom: 38px;
+    text-align: center;
 }
 
 .study1 .info-section .intro-block .paragraphs{
@@ -89,16 +95,20 @@
 
 .study1 .info-section .video-block .paragraphs {
     margin: 50px 0px 0px 0px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .study1 .info-section .video-block video {
     box-sizing: border-box;
     position: relative;
     display: block;
-    margin: 50px 0px 0px 0px;
     width: 100%;
     max-width: 404px;
     padding: 86px 0px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -107,18 +117,26 @@
     box-sizing: border-box;
     position: relative;
     display: block;
+    text-align: center;
    /* padding: 100px 0px;*/
 }
 
 .study1 .info-section .img-block .paragraphs {
-    margin: 50px 0px 0px 0px;
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 40px;
+    padding-top: 20px;
+    text-align: left;
 }
 
 .study1 .info-section .img-block img {
     box-sizing: border-box;
     position: relative;
     display: block;
-    margin: 50px auto 0px auto;
     width: 100%;
    /* max-width: 886px;*/
 }
@@ -128,13 +146,14 @@
     box-sizing: border-box;
     position: relative;
     display: block;
-    padding: 100px 0px;
+    
 }
 
 .study1 .more-section .swiper-block {
     box-sizing: border-box;
     position: relative;
     display: block;
+    padding-bottom: 120px;
 }
 
 .study1 .more-section .swiper-block .controls {
