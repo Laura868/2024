@@ -5,16 +5,8 @@ body {
     position: relative;
     display: block;
     margin: 0px;
-    font-family: 'Lato-Light',Arial,sans-serif;
+    font-family: 'LatoLight',Sans-serif;
     font-size: 20px;
-}
-
-@font-face {
-  font-family: Lato-Light;
-  src: url(Lato-Light.woff);
-}
-div{
-    font-family: Lato-Light;
 }
 
 

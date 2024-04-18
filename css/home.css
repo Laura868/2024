@@ -12,7 +12,7 @@
     position: relative;
     display: block;
     font-size: 18px;
-    font-family: 'Lato-Hairline';
+    font-family: 'LatoHairline';
     font-weight: Hairline;
 
 }
@@ -70,7 +70,7 @@
     position: relative;
     display: block;
     margin: 0px;
-    font-family: 'Lato-Hairline';
+    font-family: 'LatoHairline';
     font-weight: normal;
     font-size: 18px;
 }
