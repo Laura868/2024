@@ -4,7 +4,8 @@
     box-sizing: border-box;
     position: relative;
     display: block;
-    font-size: 28px;
+    font-size: 20px;
+    line-height: 1.5;
 }
 .Secondary-text{
     box-sizing: border-box;
@@ -61,7 +62,7 @@
     margin: 0px;
     font-family: 'Lato-Light';
     font-weight: normal;
-    font-size: 32px;
+    font-size: 26px;
 }
 
 .home .splash-section .text-wrapper h4 {
