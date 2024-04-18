@@ -9,6 +9,12 @@ body {
     font-size: 20px;
 }
 
+@font-face {
+  font-family: Lato-Light;
+  src: url(fonts_Lato-Light.woff);
+}
+
+
 .layout {
     box-sizing: border-box;
     position: relative;
