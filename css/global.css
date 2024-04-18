@@ -11,7 +11,7 @@ body {
 
 @font-face {
   font-family: Lato-Light;
-  src: url(fonts_Lato-Light.woff);
+  src: url(Lato-Light.woff);
 }
 div{
     font-family: Lato-Light;
