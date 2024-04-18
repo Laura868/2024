@@ -13,6 +13,9 @@ body {
   font-family: Lato-Light;
   src: url(fonts_Lato-Light.woff);
 }
+div{
+    font-family: Lato-Light;
+}
 
 
 .layout {
