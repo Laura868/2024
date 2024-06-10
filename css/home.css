@@ -293,3 +293,17 @@
 .home .portfolio-section .case-study .col .excerpt .more:hover .label {
     text-decoration: underline;
 }
+
+@media only screen and (max-width: 600px) {
+
+    .home .splash-section .overlay {
+    box-sizing: border-box;
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    
+    }
+  
+    }
